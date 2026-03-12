@@ -4,7 +4,7 @@ var app = builder.Build();
 
 app.MapGet("/", () => Results.Ok(new
 {
-    message = "Hola desde .NET 8 en OpenShift",
+    message = "Hola ",
     app = "hola-api",
     branch = "hector",
     utc = DateTime.UtcNow
