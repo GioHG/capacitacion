@@ -4,7 +4,7 @@ var app = builder.Build();
 
 app.MapGet("/", () => Results.Ok(new
 {
-    message = "Hola ",
+    message = "Hola automatizacion",
     app = "hola-api",
     branch = "hector",
     utc = DateTime.UtcNow
